@@ -1,0 +1,19 @@
+{
+  "Name": "PickUpSensor",
+  "UniqueId": "1abedd39-78b9-4052-957f-29844b7f3519",
+  "Description": "Say thank you when Misty senses she has been picked up",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 600,
+  "CleanupOnCancel": true,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}
