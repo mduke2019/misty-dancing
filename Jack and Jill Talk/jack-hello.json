@@ -1,0 +1,19 @@
+{
+  "Name": "jack-hello",
+  "UniqueId": "5dc1f4e3-61a8-4225-a7b7-b0e1d3f8207a",
+  "Description": "My skill is amazing!",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 600,
+  "CleanupOnCancel": true,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}
